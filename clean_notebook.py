@@ -1,5 +1,7 @@
 import json
 
+# 깃허브 업로드 시 노트북이 깨지는 문제는 노트북에 포함된 metadata 때문인데 이를 지워주는 코드
+
 with open("pinecorn_test.ipynb", "r", encoding="utf-8") as f:
     data = json.load(f)
 
